@@ -87,3 +87,49 @@
 //	cout << "입력한 순서대로의 분산: " << variance1 << ", " << variance2 << ", " << variance3;
 //	return 0;
 //}
+
+// 191p lab 소득 범위에 따른 세금 구하기
+
+//#include<iostream>
+//using namespace std;
+//
+//int main() {
+//	double income, tax = 0;
+//	bool bracket1, bracket2, bracket3, bracket4 = 0;
+//	double limit1 = 10000.00, limit2 = 50000.00, limit3 = 100000.00;
+//	double rate1 = 0.05, rate2 = 0.10, rate3 = 0.15, rate4 = 0.20;
+//
+//	cout << "수입을 달러로 입력하세요: ";
+//	cin >> income;
+//
+//	bracket1 = (income <= limit1) && (income >= 0);
+//	bracket2 = (income > limit1) && (income <= limit2);
+//	bracket3 = (income > limit2) && (income <= limit3);
+//	bracket4 = (income > limit3);
+//
+//	if (bracket1)
+//	{
+//		tax = income * rate1;
+//	}
+//	else if (bracket2)
+//	{
+//		tax = income * rate1 + (income - limit1) * rate2;
+//	}
+//	else if (bracket3)
+//	{
+//		tax = income * rate1 + (income - limit1) * rate2 + (income - limit2) * rate3;
+//	}
+//	else if (bracket4)
+//	{
+//		tax = income * rate1 + (income - limit1) * rate2 + (income - limit2) * rate3 + (income - limit3) * rate4;
+//	}
+//	else
+//	{
+//		cout << "입력에 문제가 있습니다: " << income;
+//		return 0;
+//	}
+//
+//	cout << "수입: " << income << endl;
+//	cout << "세금: " << tax;
+//}
+
