@@ -1,3 +1,4 @@
+/*
 #include<iostream>
 
 using namespace std;
@@ -36,8 +37,9 @@ int main() {
 	cout << "Hello\n";
 	cout << "Hello\b";
 	*/
-
+/*
 	// \' , \" 있는 이유.
 	// cout >> ""hi"";
 	return 0;
 }
+*/
