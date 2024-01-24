@@ -1,3 +1,6 @@
+// Forouzn C++ Bible의 예제를 따라 적은 것임을 밝힘
+// 본 게시자는 아무런 저작권이 없음
+
 // 138p lab 1번 예제
 
 //#include<iostream>
