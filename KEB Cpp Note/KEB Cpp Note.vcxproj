@@ -22,6 +22,7 @@
     <ClCompile Include="day01.cpp" />
     <ClCompile Include="day02 - lab.cpp" />
     <ClCompile Include="day02.cpp" />
+    <ClCompile Include="day03.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
