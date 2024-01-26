@@ -1,12 +1,1 @@
-#include<iostream>
-using namespace std;
-
-class Circle {
-private:
-	double radius = 0;
-public:
-	double getRadius() const;
-	double getArea() const;
-	double getPerimeter() const;
-	void setRadius(double value);
-};
+// 모듈 정확히 어케 쓰는 지 모르겠어서 지워버렸음
