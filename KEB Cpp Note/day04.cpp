@@ -1,16 +1,7 @@
 // 교재 336p Class Circle 만들어보기.
 #include<iostream>
+#include"day04 - circle module.cpp";
 using namespace std;
-
-class Circle {
-	private:
-		double radius = 0;
-	public:
-		double getRadius() const;
-		double getArea() const;
-		double getPerimeter() const;
-		void setRadius(double value);
-};
 
 double Circle::getRadius() const {
 	return radius;

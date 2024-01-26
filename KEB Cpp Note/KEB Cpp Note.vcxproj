@@ -23,6 +23,7 @@
     <ClCompile Include="day02 - lab.cpp" />
     <ClCompile Include="day02.cpp" />
     <ClCompile Include="day03.cpp" />
+    <ClCompile Include="day04 - circle module.cpp" />
     <ClCompile Include="day04.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
