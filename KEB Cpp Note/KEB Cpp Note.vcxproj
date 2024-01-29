@@ -25,6 +25,12 @@
     <ClCompile Include="day03.cpp" />
     <ClCompile Include="day04 - circle module.cpp" />
     <ClCompile Include="day04.cpp" />
+    <ClCompile Include="day05 - app.cpp" />
+    <ClCompile Include="day05 - sourcefile.cpp" />
+    <ClCompile Include="day05.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="day05 - fraction.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
