@@ -32,6 +32,9 @@
   <ItemGroup>
     <ClInclude Include="day05 - fraction.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\integerFile.dat" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
