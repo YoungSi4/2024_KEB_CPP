@@ -34,13 +34,13 @@ int main() {
 
 	// 이항계수 출력
 	cout << "(x+y)^" << n << "의 이항계수: ";
-	for (int j = 0; j < n; j++) {
+	for (int j = 0; j <= n; j++) {
 		cout << setw(5) << pascal[n][j];
 	}
 	cout << endl;
 
 	// 회수
-	for (int i = 0; i < n; i++) {
+	for (int i = 0; i < n + 1; i++) {
 		delete pascal[i];
 	}
 	delete[] pascal;
