@@ -15,9 +15,9 @@ int main() {
 	} while (n < 0 || n > maxPower);
 
 	// 동적할당
-	int** pascal = new int* [n + 1];
+	int** pascal = new int* [n + 1]; // 이게 유사 2차원 배열 만드는 방식
 	for (int i = 0; i < n + 1; i++) {
-		pascal[i] = new int[i];
+		pascal[i] = new int[i]; // 길이가 0인 배열을 할당?...
 	}
 
 	// 이항계수 구하기
