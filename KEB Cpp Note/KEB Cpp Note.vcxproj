@@ -37,12 +37,21 @@
     <ClCompile Include="day04.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="day05 - app.cpp" />
-    <ClCompile Include="day05 - sourcefile.cpp" />
-    <ClCompile Include="day05.cpp" />
+    <ClCompile Include="day05 - app.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="day05 - sourcefile.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="day05.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="day06.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="day05 - fraction.h" />
+    <ClInclude Include="day05 - fraction.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\integerFile.dat" />

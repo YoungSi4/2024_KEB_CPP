@@ -42,6 +42,9 @@
     <ClCompile Include="day05 - app.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="day06.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="day05 - fraction.h">
