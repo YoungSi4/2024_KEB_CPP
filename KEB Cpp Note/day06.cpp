@@ -15,9 +15,9 @@ int main() {
 	} while (n < 0 || n > maxPower);
 
 	// 동적할당
-	int** pascal = new int* [n + 1]; // 이게 유사 2차원 배열 만드는 방식
+	int** pascal = new int* [n + 1]; // pascal 배열에 0 ~ 5 행 생성
 	for (int i = 0; i < n + 1; i++) {
-		pascal[i] = new int[i]; // 길이가 0인 배열을 할당?...
+		pascal[i] = new int[i + 1]; // pascal 배열에 길이가 1부터 n인 열 생성
 	}
 
 	// 이항계수 구하기
@@ -35,7 +35,7 @@ int main() {
 	// 이항계수 출력
 	cout << "(x+y)^" << n << "의 이항계수: ";
 	for (int j = 0; j <= n; j++) {
-		cout << setw(5) << pascal[n][j];
+		cout << setw(5) << pascal[n][j]; // setw : 빈칸 출력하는 함수
 	}
 	cout << endl;
 
